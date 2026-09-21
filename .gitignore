@@ -1,0 +1,52 @@
+# Environment variables
+.env
+.env.local
+.env.*.local
+backend/.env
+frontend/.env.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+venv/
+ENV/
+
+# Django
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+
+# Node
+node_modules/
+.next/
+out/
+build/
+.next-pwa/
+
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/
+
+# Docker
+*.log
